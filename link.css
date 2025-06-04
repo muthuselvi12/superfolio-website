@@ -1,0 +1,798 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+/* a:link{
+    color: rgb(230, 230, 240);
+}
+a:visited{
+    color: rgb(0, 0, 0);
+} */
+a:active{
+    color:rgb(255, 255, 255);
+}
+a:hover{
+    background-color: rgb(255, 255, 255);
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: poppins;
+}
+
+p {
+    margin-bottom: 0.6px;
+}
+
+.marker {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.marker_img {
+    width: 220px;
+}
+
+/* img{
+    width: 100%;
+} */
+.super img {
+    width: 100%;
+
+}
+
+.flex {
+    display: grid;
+    grid-template-columns: 35% 40%;
+    justify-content: space-around;
+    padding: 15px;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #f4f6f8;
+}
+
+ul {
+    list-style-type: none;
+    /* padding-right: 40px; */
+
+}
+
+li {
+    display: inline;
+    padding: 5px;
+    font-size: 15px;
+
+}
+
+.checking {
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+.h2 {
+    /* padding-left: 20px; */
+}
+
+
+.div {
+    display: grid;
+    grid-template-columns: 47% 40%;
+    justify-content: space-around;
+    gap: 3px;
+    /* padding-top: 30px; */
+    background-color: #f4f6f8;
+    align-items: center;
+    /* padding-top: 65px; */
+    margin-top: 60px;
+
+}
+
+
+.bg {
+    background-image: url(./aasets/wave.svg);
+    width: 100%;
+    height: 200px;
+}
+
+
+.button {
+    background-color: rgb(244, 244, 14);
+    border: 1px solid rgb(244, 244, 14);
+    width: 170px;
+    padding: 10px;
+    border-radius: 19px;
+    box-shadow: box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+
+}
+
+.yellow {
+    /* padding-top: 30px;
+    padding-right: 40px; */
+    margin-top: 35px;
+}
+
+button:hover {
+    background-color: rgb(237, 237, 131);
+}
+
+.cls {
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+
+.pad {
+    /* padding-right: 200px; */
+    /* padding-top: 30PX; */
+    font-size: 21px;
+    /* margin-bottom: 30px; */
+}
+
+.li {
+    /* padding: 1px 1px 1px 0px; */
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 40% 35%;
+    justify-content: space-around;
+
+    /* padding-top:70px ; */
+    /* line-height: 35px; */
+
+
+}
+
+.word {
+    text-align: justify;
+    line-height: 1.5;
+    font-size: 15px;
+    font-family: var(--bs-font-sans-serif);
+}
+
+.hello {
+    text-align: justify;
+
+
+    font-size: 25px;
+    font-family: var(--bs-font-sans-serif)
+}
+
+.image {
+    width: 80%;
+
+}
+
+.img_man {
+
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+}
+
+.divgrid {
+    display: grid;
+    grid-template-columns: 15% 25%;
+    line-height: 2.1;
+    margin-top: 20px;
+    font-size: 13px;
+
+}
+
+.font p {
+    font-weight: bold;
+}
+
+h1 {
+    /* margin-bottom: 0.6px; */
+    font-size: 40px;
+}
+
+.service {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    /* flex-direction: column; */
+    /* align-items: center; */
+    justify-content: space-around;
+    margin-top: 50px;
+    /* padding: 30px; */
+    /
+}
+
+.service img {
+    margin: auto;
+    display: block;
+}
+
+
+.alter {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+    font-size: 30px;
+}
+
+.skill {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+    font-size: 32px;
+}
+
+.app {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    font-size: 13px;
+
+}
+
+.text {
+    text-align: center;
+}
+
+.source {
+    width: 60%;
+}
+
+.design {
+    /* display: grid;
+    grid-template-columns: 47% 20%; */
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(228, 241, 249);
+    padding: 10px;
+    border-radius: 15px 15px 0px 0px;
+
+
+}
+.quotes{
+    font-size: 30px;
+}
+
+.whole {
+
+    border: 1px solid rgb(230, 227, 227);
+    border-radius: 15px;
+}
+
+.para {
+    padding: 19px;
+    text-align: justify;
+    font-size: 14px;
+    line-height: 1.8;
+
+}
+
+.size {
+    font-size: 12px;
+}
+
+.experience {
+    display: grid;
+    grid-template-columns: 37% 37%;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 25px;
+
+
+}
+
+.company {
+    display: grid;
+    grid-template-columns: 30% 25%;
+    justify-content: flex-end;
+    /* padding-left: 30px; */
+    align-items: flex-end;
+    text-align: right;
+}
+
+.box {
+    /* border: 1px solid rgb(230, 227, 227);
+    border-radius: 15px ; */
+    padding: 15px;
+}
+
+.picture {
+    width: 100%;
+    border-radius: 12px;
+
+    /* justify-content: flex-end; */
+}
+
+.ceo {
+    font-size: 10px;
+}
+
+.card {
+    padding: 0px 20px 20px 0px;
+}
+
+
+.solid {
+    /* padding: 10px; */
+    text-align: justify;
+    /* font-size: 14px; */
+    line-height: 1.8;
+}
+
+.client {
+    display: grid;
+    grid-template-columns: 37% 37%;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 25px;
+}
+
+.contact {
+    display: grid;
+    grid-template-columns: 37% 37%;
+    justify-content: center;
+    gap: 20px;
+    padding: 25px;
+ 
+
+
+}
+
+.email {
+    display: grid;
+    grid-template-columns: 20% 27%;
+    /* justify-content: center; */
+    gap: 25px;
+    padding-top: 25px;
+    line-height: 2.5;
+}
+
+.letter {
+    line-height: 2.2;
+    font-size: 14px;
+}
+
+.form {
+    width: 90%;
+    padding: 10px;
+    border-radius: 10px;
+
+
+}
+
+.textarea {
+    width: 80%;
+    padding: 30px;
+    border-radius: 10px;
+
+}
+
+.button-send {
+    margin-top: 10px;
+    width: 25%;
+    border-radius: 20px;
+    padding: 10px;
+    border: 1px solid rgb(244, 244, 14);
+    background-color: rgb(244, 244, 14);
+
+}
+
+.action {
+    /* margin: 30px; */
+    padding: 30px;
+}
+
+.label {
+    background-color: rgba(231, 231, 231, 0.84);
+
+    padding: 30px;
+    width: 95%;
+    height: 85%;
+    line-height: 2.5;
+}
+
+.footer {
+
+    background-color: rgb(211, 221, 223);
+    width: 100%;
+    height: 100%;
+
+
+}
+
+.flip {
+    display: block;
+    text-align: center;
+    padding: 30px;
+    line-height: 2.2;
+
+}
+
+.mobile {
+    margin-top: 25px;
+
+}
+
+.template {
+    font-size: 12px;
+}
+
+
+@media screen and (min-width:320px) and (max-width: 768px) {
+    .div {
+        display: block;
+        padding: 0px 25px;
+
+    }
+
+    ul {
+        display: none;
+    }
+
+    .checking {
+        display: block;
+    }
+
+    .flex {
+        display: grid;
+        grid-template-columns: 30% 20%;
+        justify-content: space-between;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background-color: #f4f6f8;
+    }
+
+
+    #check:checked~ul {
+        display: grid;
+        grid-template-columns: 100%;
+        position: fixed;
+        top: 70px;
+        left: 10px;
+        width: 100%;
+        background-color: rgb(134, 93, 236);
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .h2 {
+        font-size: 17px;
+    }
+
+    h1 {
+        font-size: 25px;
+
+    }
+
+    .pad {
+        font-size: 15px;
+    }
+
+    .marker {
+        display: flex;
+        justify-content: flex-start;
+
+    }
+
+    .marker_img {
+        width: 120px;
+        padding-left: 10px;
+    }
+
+    .super {
+        width: 80%;
+    }
+
+    .grid {
+        display: block;
+        margin: auto;
+        width: 80%;
+        /* padding: 10px; */
+    }
+
+    .hello {
+        font-size: 19px;
+        line-height: 2.5;
+    }
+
+    .word {
+        font-size: 13px;
+    }
+
+    .divgrid {
+        grid-template-columns: 25% 40%;
+        font-size: 12px;
+        padding-bottom: 20px;
+    }
+
+    .alter {
+        display: grid;
+        align-items: center;
+        font-size: 20px;
+    }
+
+    .app {
+        margin: auto;
+        width: 80%;
+        font-size: 12px;
+    }
+
+    .service {
+        /* flex-direction: column; */
+        grid-template-columns: 100%;
+
+        /* width: 90%;/ */
+        /* padding: 10px; */
+    }
+
+    .length img {
+        margin: auto;
+        display: block;
+    }
+
+    .experience {
+        display: block;
+        padding: 30px;
+    }
+
+    .whole {
+        margin-top: 20px;
+    }
+
+    .source {
+        width: 50%;
+    }
+
+    .design {
+        padding: 6px;
+        border-radius: 15px 15px 0px 0px;
+    }
+
+    .para {
+        padding: 12px;
+        font-size: 12px;
+        line-height: 1.5;
+
+    }
+
+    .size {
+        font-size: 10px;
+    }
+
+    .client {
+        display: block;
+        gap: 20px;
+        padding-top: 25px;
+    }
+
+    .solid {
+        font-size: 12px;
+    }
+
+    .box {
+
+        padding: 10px;
+    }
+
+    .contact {
+        display: block;
+    }
+
+    .form {
+        width: 60%;
+        padding: 7px;
+        border-radius: 10px;
+    }
+
+    .textarea {
+        width: 70%;
+        padding: 20px;
+    }
+
+    .button-send {
+        width: 20%;
+        padding: 7px;
+    }
+
+    .label {
+
+        padding: 20px;
+        width: 80%;
+        height: 70%;
+
+    }
+
+    .action {
+        padding: 20px;
+    }
+
+    .email {
+        display: grid;
+        grid-template-columns: 20% 30%;
+        gap: 15px;
+        padding-top: 20px;
+        font-size: 12px;
+
+    }
+
+    .letter {
+
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:997px) {
+    ul {
+        display: none;
+    }
+
+    .checking {
+        display: block;
+    }
+
+    #check:checked~ul {
+        display: grid;
+        grid-template-columns: 100%;
+        position: fixed;
+        top: 70px;
+        left: 10px;
+        width: 100%;
+        background-color: rgb(134, 93, 236);
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .flex {
+        display: grid;
+        grid-template-columns: 30% 20%;
+        justify-content: space-between;
+
+    }
+    .div {
+        display: block;
+        padding: 0px 25px;
+
+    }
+
+    .super {
+        width: 80%;
+    }
+
+    .pad {
+        font-size: 15px;
+    }
+
+    h1 {
+        font-size: 30px;
+
+    }
+
+    .marker {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .marker_img {
+        width: 250px;
+        /* padding-left: 50px; */
+    }
+
+
+    .grid {
+        display: grid;
+        grid-template-columns: 37% 40%;
+        justify-content: space-around;
+    }
+
+    .divgrid {
+        display: grid;
+        grid-template-columns: 20% 37%;
+        line-height: 2.1;
+        margin-top: 20px;
+        font-size: 12px;
+    }
+    .image {
+        width: 90%;
+    
+    }
+    .word {
+        line-height: 1.5;
+        font-size: 13px;
+    }
+    
+    .hello {
+        font-size: 20px;
+    }
+    .alter{
+        font-size: 25px;
+    }
+    .experience {
+        display: grid;
+        grid-template-columns: 35% 35%;
+    }
+    .design {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        gap: 20px;
+    }
+    .source {
+        width: 50%;
+    }
+    .para {
+        padding: 20px;
+        text-align: justify;
+        font-size: 12px;
+        line-height: 1.8;
+    
+    }
+    .solid{
+        font-size: 13px;
+    }
+    .company {
+        display: grid;
+        grid-template-columns: 40% 30%;
+    }
+    .ceo{
+        font-size: 9px;
+    }
+    .letter {
+        font-size: 14px;
+    }
+    .email {
+        display: grid;
+        grid-template-columns: 30% 50%;
+        /* justify-content: center; */
+        gap: 20px;
+        padding-top: 25px;
+        line-height: 2.5;
+        font-size: 13px;
+    }
+    .action {
+        /* margin: 30px; */
+        padding: 25px;
+    }
+    .label {
+       padding: 35px;
+        /* width: 90%;
+        height: 80%; */
+        line-height: 1.8;
+    }
+    .contact{
+        gap: 25px;
+    }
+    .form {
+        width: 90%;
+        padding: 7px;
+        border-radius: 10px;
+    
+    
+    }
+    
+    .textarea {
+        width: 80%;
+        padding: 25px;
+        border-radius: 10px;
+    
+    }
+    
+
+}
+   
+    
+

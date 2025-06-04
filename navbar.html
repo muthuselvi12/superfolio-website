@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .flex {
+            display: grid;
+            grid-template-columns: 35% 40%;
+            justify-content: space-around;
+            padding: 15px;
+            align-items: center;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: #f4f6f8;
+        }
+
+        ul {
+            list-style-type: none;
+            /* padding-right: 40px; */
+
+        }
+
+        li {
+            display: inline;
+            padding: 5px;
+            font-size: 15px;
+
+        }
+
+        .checking {
+            display: none;
+        }
+
+        #check {
+            display: none;
+        }
+
+        @media screen and (min-width:320px) and (max-width: 768px) {
+            .flex {
+                display: grid;
+                grid-template-columns: 30% 30%;
+                justify-content: space-between;
+                /* padding: 15px;
+            align-items: center; */
+                position: fixed;
+                top: 0;
+                width: 100%;
+                background-color: #f4f6f8;
+            }
+
+            .h2 {
+                font-size: 17px;
+            }
+
+            ul {
+                display: none;
+            }
+
+            .checking {
+                display: block;
+            }
+
+            #check:checked~ul {
+                display: grid;
+                grid-template-columns: 100%;
+                position: fixed;
+                top: 70px;
+                left: 10px;
+                width: 90%;
+                background-color: aqua;
+                align-items: center;
+                
+
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="flex">
+        <div>
+            <h2 class="h2">Super Folio</h2>
+        </div>
+        <div>
+
+            <input type="checkbox" id="check">
+            <label for="check" class="checking">
+                <i class="fas fa-bars"></i>
+            </label>
+            <ul>
+                <li>About</li>
+                <li>Service</li>
+                <li>Skills</li>
+                <li>Portfolio</li>
+                <li>Experience</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
